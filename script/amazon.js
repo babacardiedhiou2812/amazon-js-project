@@ -1,5 +1,9 @@
-import {cart, addToCart} from '../data/cart';
-import { products} from '../data/products';
+//The main idea of javascript 
+//save the data 
+//Generate the HTML
+//Make it Interactive 
+import {cart, addToCart} from '../data/cart.js';
+import { products} from '../data/products.js';
 
 let productsHtml = '';
 products.forEach((product) => {
